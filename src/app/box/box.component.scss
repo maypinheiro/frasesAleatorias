@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.container {
+  height: 95.2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  width: 100vw;
+
+}
+.sideA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+.sideB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+.example-card {
+  border-radius: 12px;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  width: 600px;
+  height: 404px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
+  background-color: #313131;
+}
+.next {
+  color: white;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  height: 38px;
+  width: 15vw;
+  background: linear-gradient(90deg, #C19D24 0%, #C24700 107.67%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.next:hover {
+  transform: scale(1.05);
+}
+
+app-imagens {
+  transition: 0.8s;
+}
+app-imagens:hover {
+  transform: scale(1.07);
+}

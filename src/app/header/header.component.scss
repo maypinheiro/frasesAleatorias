@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.mat-toolbar {
+    font-family: 'Anton', sans-serif;
+    color: #C19D24;
+    background-color: #353535;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mat-toolbar span {
+    font-size: 35px;
+    padding-left: 20px;
+  }
+
